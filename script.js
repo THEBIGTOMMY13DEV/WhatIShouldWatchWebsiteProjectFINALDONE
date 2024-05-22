@@ -138,9 +138,3 @@ result.insertAdjacentHTML("afterBegin", "<img src='" + historicalimage + "'>");
 resetButton.onclick = function(){
     result.innerHTML= "";
 }
-
-const genrebutton = document.getElementById("genrebutton");
-    const disableButton = () => {
-      genrebutton.disabled = true;
-    };
-    genrebutton.addEventListener("click", disableButton);
